@@ -2,7 +2,7 @@
 
 An end-to-end machine learning walkthrough on the classic [Iris dataset](https://scikit-learn.org/stable/datasets/toy_dataset.html#iris-plants-dataset), built with scikit-learn.
 
-I am a biomedical engineer who got curious about ML and AI, and this is my first GitHub project. I use it to learn the fundamentals step by step: each part of the script answers a set of guiding questions, and I document my reasoning alongside the code.
+I am a biomedical engineer who got curious about ML and AI, and this is my first GitHub project. I use it to learn the fundamentals step by step and I document my reasoning alongside the code.
 
 ## What's inside
 
@@ -10,7 +10,6 @@ I am a biomedical engineer who got curious about ML and AI, and this is my first
 |---|---|
 | `main.py` | Full pipeline: data exploration, preprocessing, hyperparameter tuning, model comparison, cross-validation |
 | `cv_results.csv` | Cross-validation results exported by the script |
-| `commento.docx` | Written commentary answering the guiding questions (work in progress) |
 
 ## Pipeline
 
