@@ -10,7 +10,6 @@ I am a biomedical engineer who got curious about ML and AI, and this is my first
 |---|---|
 | [`Iris_classification.ipynb`](Iris_classification.ipynb) | Notebook version with all outputs and plots already rendered (readable directly on GitHub) |
 | `main.py` | Same pipeline as a plain Python script |
-| `cv_results.csv` | Nested cross-validation results exported by the script |
 
 ## Pipeline
 
@@ -50,7 +49,7 @@ All models perform similarly: the differences are within one standard deviation,
 
 **Test set (30 samples), selected model: SVM (linear kernel, C = 0.1):** accuracy 0.933 (28/30 correct). *Setosa* is classified perfectly; the errors are between *versicolor* and *virginica*, which overlap in feature space. With only 30 test samples, a single mistake moves accuracy by about 3 points.
 
-Full results, including precision, recall and F1, are in [`cv_results.csv`](cv_results.csv).
+The full metrics (precision, recall, F1, train vs. validation scores) are shown in the notebook, and `main.py` exports them to `cv_results.csv` when you run it.
 
 ## Getting started
 
